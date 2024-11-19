@@ -1,11 +1,7 @@
+import Calculator from "./components/Calculator";
 
 function App() {
-
-  return (
-    <>
-      <div className="bg-red-100">Project Setup</div>
-    </>
-  )
+  return <Calculator />;
 }
 
-export default App
+export default App;
